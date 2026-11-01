@@ -1,0 +1,9 @@
+export default function PrivacyPage() {
+  return (
+    <main className="flex min-h-[calc(100vh-80px)] items-center justify-center bg-zinc-950">
+      <h1 className="text-5xl font-extrabold text-zinc-300 tracking-wider">
+        Privacy
+      </h1>
+    </main>
+  );
+}
