@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Privacy",
+};
+
 export default function PrivacyPage() {
   return (
     <main className="flex min-h-[calc(100vh-80px)] items-center justify-center bg-zinc-950">

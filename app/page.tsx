@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Home",
+};
+
 export default function HomePage() {
   return (
     <main className="flex min-h-[calc(100vh-80px)] items-center justify-center bg-zinc-950">
