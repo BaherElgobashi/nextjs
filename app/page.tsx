@@ -7,7 +7,9 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts")
+    fetch("https://jsonplaceholder.typicode.com/posts", {
+      cache: "no-store",
+    })
       .then((res) => res.json())
       .then((data) => {
         setPosts(data);
